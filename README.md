@@ -10,7 +10,7 @@
           maven { url 'https://jitpack.io' }
         }
       }
-    Step 2. Add the dependency
+## Step 2. Add the dependency
 
       dependencies {
               compile 'com.github.AlbertLarry:LuBanWithOutRx:1.0'
@@ -25,13 +25,7 @@
 
                     @Override
                     public void onSuccess(final File file) {
-                        Log.i("way","origin size ="+file.getUsableSpace());
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                Picasso.with(MainActivity.this).load(file).into(imageView);
-                            }
-                        });
+                       //doSomething with file
                     }
 
                     @Override
