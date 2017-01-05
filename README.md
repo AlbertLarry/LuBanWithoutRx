@@ -17,7 +17,7 @@
       }
  
 ## Used
-    Luban.get(this).load(getFileByUri(data.getData())).putGear(Luban.THIRD_GEAR)
+    Luban.get(this).load(mFile).putGear(Luban.THIRD_GEAR)
                 .setCompressListener(new OnCompressListener() {
                     @Override
                     public void onStart() {
