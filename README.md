@@ -27,7 +27,8 @@
 
                     @Override
                     public void onSuccess(final File file) {
-                       //doSomething with file
+                    //这是在工作线程，请自行切换线程使用
+                     //doSomething with file
                     }
 
                     @Override
