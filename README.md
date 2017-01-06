@@ -1,5 +1,7 @@
 # LuBanWithOutRx
-没有引入任何第三方框架的LuBan的library，默认使用的是三级压缩
+抽取[LuBan](https://github.com/Curzibn/Luban)的核心算法，
+没有引入任何第三方的东西。
+默认使用的是三级压缩，对图片进行压缩。
 ## Step 1. Add the JitPack repository to your build file
 
     Add it in your root build.gradle at the end of repositories:
@@ -33,3 +35,9 @@
                         Log.i("way", "error");
                     }
                 }).launch();
+
+## 方法对应表
+
+方法名|功能 ---|--- load(File file)|传入要压缩的文件 setFilename(String filename)|设置压缩后图片命名 putGear(int gear)|设置压缩档次
+
+参考链接，大名鼎鼎的[LuBan](https://github.com/Curzibn/Luban) 链接：[https://github.com/Curzibn/Luban](https://github.com/Curzibn/Luban)
