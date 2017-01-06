@@ -27,13 +27,15 @@
 
                     @Override
                     public void onSuccess(final File file) {
+                    
                          //这是在工作线程，请自行切换线程使用
                          //doSomething with file
+                    
                     }
 
                     @Override
                     public void onError(Throwable e) {
-                        Log.i("way", "error");
+                  
                     }
                 }).launch();
 
